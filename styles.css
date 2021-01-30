@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+#app{
+    margin: auto;
+    max-width: 85%;
+    background-color: teal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+figure{
+   background-color: grey;
+   border: 3px solid white;
+   max-width: 40%;
+}
+
+figcaption > ol{
+    background-color: purple;
+}
